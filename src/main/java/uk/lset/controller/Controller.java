@@ -21,6 +21,7 @@ public class Controller {
 
     @PostMapping(path = "/post")
     public String post() {
+        logger.info("Post Request");
         return "Good Morning";
     }
 
